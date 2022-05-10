@@ -839,6 +839,9 @@ height: 120px;
     .form-input-com:focus, .form-input-com:hover{
         border-color: #2196F3;
     }
+    .form-input:focus + span svg{
+        fill: var(--color-1);
+    }
 
   .form-field textarea::placeholder{
     font-weight: 400;
