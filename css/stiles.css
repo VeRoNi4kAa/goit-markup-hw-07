@@ -801,17 +801,19 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .check-icon{
  display:inline-block;
-width: 16px;
-height: 18px;
+width: 13px;
+height: 9px;
 border-radius: 2px;
+}
+.check-icn{
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 .checkbox-input:checked + .check-icon{
     border-color: transparent;
     background-color: #2196F3;
-    background-image: url('./images/sprite.svg#icon-Vector-2-1');
-    background-size: contain;
-    background-origin: border-box;
 }
 
     .checkbox-text{
